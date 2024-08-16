@@ -12,9 +12,9 @@ function mcm(a, b) {// minimo comun multiplo
     return (a * b) / mcd(a, b);
 }
 
-console.log(mcm(28, 0));
-console.log(mcm(15, 5));
-console.log(mcm(7,5)); 
+console.log(mcm(18, 0));
+console.log(mcm(14, 5));
+console.log(mcm(89,5)); 
 
 
 
@@ -43,7 +43,7 @@ function findDuplicates(nums) {
     return duplicates;
 }
 
-const numbers = [1, 2, 3, 1, 4, 5, 6, 2, 7, 8, 8];
+const numbers = [1, 2, 3, 1, 4, 5, 6,8,9,2,6,2, 2, 7, 8, 8];
 const duplicates = findDuplicates(numbers);
 console.log(duplicates); 
 
@@ -90,7 +90,7 @@ function generatePassword(length) {// length es la longitud de la contraseña
     return password.join('');
 }
 
-const passwordLength = 15;
+const passwordLength = 12;
 const password = generatePassword(passwordLength);
 console.log(password); 
 
